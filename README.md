@@ -19,3 +19,21 @@ Hello World
 </ol>
 </body>
 </html>
+.correct{
+  background:green;
+}
+
+.incorrect{
+  background:red;
+}
+$("input").change(onChange);
+function onChange(evt){
+  let correct = $(this).data("correct");
+  let response = $(this).val();
+  
+  if(correct == response){
+    $(this).removeClass('incorrect').addClass("correct");
+  } else{
+    $(this).removeClass('correct').addClass("incorrect");
+  }
+}
