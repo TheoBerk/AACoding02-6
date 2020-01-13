@@ -1,6 +1,4 @@
 # AACoding02-6
-Second day of coding in gary anderson's advanced algebra class
-Hello World
 <!DOCTYPE html>
 <html lang="en">
 <head>
