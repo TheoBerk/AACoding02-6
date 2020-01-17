@@ -12,3 +12,36 @@
   
 
 </ol>
+
+<CSS>
+ .correct{
+  background:green;
+}
+
+.incorrect{
+  background:red;
+}
+
+<JS>
+ setInterval(upTime,1000);
+
+function upTime(){
+  let theTime = Number($("#theTime").text());
+  theTime = theTime + 1;
+  $("#theTime").text(theTime);
+}
+$("input").change(onChange);
+
+function onChange(evt){
+  let correct = $(this).data("correct");
+  let response = $(this).val();
+  
+  if(correct == response){
+    $(this).removeClass('incorrect').addClass("correct");
+    let theScore = Number($("#score").text());
+    theScore = theScore + 1;
+    $("#score").text(theScore);
+  } else{
+    $(this).removeClass('correct').addClass("incorrect");
+  }
+}
