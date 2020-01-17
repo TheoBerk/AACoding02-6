@@ -1,37 +1,16 @@
 # AACoding02-6
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="apple-mobile-web-app-title" content="CodePen">
-<title>AACoding02-6</title>
-</head>
-<body translate="no">
-<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<html>
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
 <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 <h1>Gary's Awesome Math Problems</h1>
+<div>Timer: <span id="theTime">0</span> Score: <span id="score">0</span></div>
 <ol>
-<li>\( 2^3 \)</li>
-<li>\( \sqrt[3]{8} \)</li>
-<li>\( 8^\frac{1}{3} \)
-</ol>
-</body>
-</html>
-.correct{
-  background:green;
-}
-
-.incorrect{
-  background:red;
-}
-$("input").change(onChange);
-function onChange(evt){
-  let correct = $(this).data("correct");
-  let response = $(this).val();
+  <li>\( 2^3 \) <input data-correct="8"/> </li>
+  <li>\( \sqrt[3]{8} \)  <input data-correct="2" /></li>
+  <li>\( 8^\frac{1}{3} \) <input data-correct="2"/></li>
+  <li>\(   (\frac{-125}{27})^\tfrac{-2}{3} \) <input data-correct="9/25"/></li>
   
-  if(correct == response){
-    $(this).removeClass('incorrect').addClass("correct");
-  } else{
-    $(this).removeClass('correct').addClass("incorrect");
-  }
-}
+
+</ol>
+<html>
+  
