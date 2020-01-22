@@ -11,7 +11,7 @@
 <title>CodePen - AACoding03-6</title>
 <style>
 .correct{
-  background:green;
+  background:green;<blink>
 }
 
 .incorrect{
