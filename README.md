@@ -29,6 +29,9 @@
 <li>\( \sqrt[3]{8} \) <input data-correct="2" /></li>
 <li>\( 8^\frac{1}{3} \) <input data-correct="2" /></li>
 <li>\( (\frac{-125}{27})^\tfrac{-2}{3} \) <input data-correct="9/25" /></li>
+  <li>\( (\frac{3}{2})^\tfrac{2}{3} \) <input data-correct="9/4" /></li>
+  <li>\( 3^4 \) <input data-correct="81" /> </li>
+  <li>\( 64^\frac{1}{3} \) <input data-correct="4" /></li>
 </ol>
 <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js'></script>
 <script id="rendered-js">
