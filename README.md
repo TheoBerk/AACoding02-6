@@ -60,8 +60,8 @@ function onChange(evt){
     let theScore = Number($("#score").text());
     theScore = theScore + 1;
     $("#score").text(theScore);
-    realsad.play();
   } else{
+  realsad.play();
     $(this).removeClass('correct').addClass("incorrect");
   }
 }
