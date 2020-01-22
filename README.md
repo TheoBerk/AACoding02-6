@@ -17,9 +17,6 @@
 .incorrect{
   background:red;
 }
-{
-background:yellow;
-}
 </style>
 </head>
 <body translate="no">
@@ -36,7 +33,8 @@ background:yellow;
 <li>\( 3^4 \) <input data-correct="81" /> </li>
 <li>\( 64^\frac{1}{3} \) <input data-correct="4" /></li>
 <li>\( 256^\frac{1}{4} \) <input data-correct="4" /></li>
-<li>\( (\frac{ \) <input data-correct="4" /></li>
+<li>\( (\frac{256}{729})^\tfrac{2}{3} \) <input data-correct="3/2" /></li>
+  <li>\( 9^\frac{1}{2} \) <input data correct="3" /></li>
 </ol>
 <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js'></script>
 <script id="rendered-js">
