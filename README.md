@@ -11,11 +11,14 @@
 <title>CodePen - AACoding03-6</title>
 <style>
 .correct{
-  background:green;<blink>
+  background:green;
 }
 
 .incorrect{
   background:red;
+}
+{
+background:yellow;
 }
 </style>
 </head>
