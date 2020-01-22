@@ -17,6 +17,9 @@
 .incorrect{
   background:red;
 }
+ol {
+background:yellow;
+}
 </style>
 </head>
 <body translate="no">
