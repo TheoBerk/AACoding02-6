@@ -22,6 +22,10 @@
 <body translate="no">
 <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
 <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+<audio id="realsad" controls>
+  <source src="https://raw.githubusercontent.com/TheoBerk/AACoding02-6/master/sad.mp3" type="audio/mpeg">
+  Your browser does not support the audio tag
+</audio>
 <h1>Theo's Cool Math Problems</h1>
 <div>Timer: <span id="theTime">0</span> Score: <span id="score">0</span></div>
 <ol>
@@ -56,6 +60,7 @@ function onChange(evt){
     let theScore = Number($("#score").text());
     theScore = theScore + 1;
     $("#score").text(theScore);
+    realsad.play();
   } else{
     $(this).removeClass('correct').addClass("incorrect");
   }
