@@ -18,7 +18,7 @@
   background:red;
 }
 ol {
-background:yellow;
+<blink> background:yellow;
 }
 </style>
 </head>
