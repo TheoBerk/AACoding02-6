@@ -1,4 +1,3 @@
-# AACoding02-6
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -28,7 +27,7 @@ ol {
   <source src="https://raw.githubusercontent.com/TheoBerk/AACoding02-6/master/sad.mp3" type="audio/mpeg">
   Your browser does not support the audio tag
 </audio>
-  <h1>Theo's Cool Math Problems</h1>
+  <h1># AACoding02-6 - Theo's Cool Math Problems</h1>
 <div>Timer: <span id="theTime">0</span> Score: <span id="score">0</span></div>
 <ol>
 <li>\( 2^3 \) <input data-correct="8" /> </li>
